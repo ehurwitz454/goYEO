@@ -949,6 +949,6 @@ def get_outcome_color(outcome):
         'FO': '#495057'   # Gray for field outs
     }
     return color_map.get(outcome, '#666')
-
+server = app.server
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8051)
+    app.run_server(debug=False, port=8051)
