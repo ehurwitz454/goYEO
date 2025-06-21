@@ -1,0 +1,85 @@
+# Core Dependencies
+dash==2.14.2
+dash-table==5.0.0
+plotly==5.18.0
+pandas==2.1.4
+numpy==1.26.3
+numba
+anthropic
+
+# Data Processing
+pyarrow==14.0.2
+openpyxl==3.1.2  # For Excel file support
+
+# AWS/R2 Storage
+boto3==1.34.14
+botocore==1.34.14
+
+# Image Processing
+Pillow==10.2.0
+
+# System Monitoring
+psutil==5.9.8
+
+# Environment Management
+python-dotenv==1.0.0
+
+# HTTP Requests
+requests==2.31.0
+urllib3==2.0.7
+
+
+# Production Server (for Railway deployment)
+gunicorn==21.2.0
+
+# Additional Dependencies
+werkzeug==3.0.1  # Flask dependency
+flask==3.0.0  # Dash dependency
+click==8.1.7  # Flask dependency
+
+# Data Science Libraries (if needed for future enhancements)
+# scipy==1.11.4
+# scikit-learn==1.3.2
+
+# Timezone Support (if needed)
+# pytz==2023.3.post1
+
+# Development Tools (optional, comment out for production)
+# pytest==7.4.4
+# black==23.12.1
+# flake8==7.0.0
+# ipython==8.19.0
+
+# Specific versions for stability
+certifi==2023.11.17
+charset-normalizer==3.3.2
+idna==3.6
+six==1.16.0
+python-dateutil==2.8.2
+s3transfer==0.10.0
+jmespath==1.0.1
+
+# Dash components
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+dash-bootstrap-components==1.5.0  # Optional: for better styling
+
+# Threading and async support
+nest-asyncio==1.5.8
+retrying==1.3.4
+
+# JSON handling
+orjson==3.9.10  # Faster JSON parsing
+
+# Compression (for parquet optimization)
+python-snappy==0.7.1
+lz4==4.3.3
+
+# Type hints (optional)
+# typing-extensions==4.9.0
+
+# Caching
+cachetools==5.3.2
+
+# Progress bars (optional, for scripts)
+# tqdm==4.66.1
